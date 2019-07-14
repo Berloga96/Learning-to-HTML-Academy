@@ -3,6 +3,13 @@
 
 
 
+function sqr(round){
+  return 3.13 * 1.4 * round * round;
+  
+}
+sqr(3);
+console.log( sqr);
+
   
 
 let money = +prompt('Ваш месячный доход ?',40000),
